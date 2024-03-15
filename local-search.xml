@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>苹果美区账号火箭AppleID共享</title>
+    <link href="/apple/apple-id.html"/>
+    <url>/apple/apple-id.html</url>
+    
+    <content type="html"><![CDATA[<p>关于苹果手机的软件，如果本地应用商店找不到，极有可能是其他地区的。 </p><p>本站提供“苹果商店ID”共享美区日区台湾各国账号服务，供学习研究。 </p><a class="btn" href="http://dt4.8tupian.net/2/29392a1b1000.pg1?8_t=12"  title="点击此处" target="_blank">点击此处</a>，**在新的页面内支付并获取外区账号密码**。<p>如果你想注册自己的独有账号，也可以联系我，有偿注册。</p><blockquote><p>使用注意</p></blockquote><p><strong>iPhone手机和iPad用户千万不要从设置(iCloud)登录，只能在AppStore登录下载ios应用，也不要往共享账户充值，不然造成锁定手机的风险后果自负！</strong></p><p><img src="/./img/apple-id-to-appstore.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>apple</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>账号</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>教程｜iPhone快捷指令设置自动打开、关闭VPN</title>
+    <link href="/tech/shortcut-for-vpn.html"/>
+    <url>/tech/shortcut-for-vpn.html</url>
+    
+    <content type="html"><![CDATA[<p>在工作或生活中，很多人需要使用<a href="https://info.nickyam.com/tags/VPN">VPN</a>。但不少软件或服务在VPN打开时却不能正常工作。虽然某些代理工具可以根据域名或其他方法自动判断是否走代理，但总有漏网之鱼被强迫走代理，这样就会出现服务不可用的情况或者速度会很慢，只有将VPN暂时关闭才行。</p><p>按照上面的场景，需要使用VPN的时候手动打开，不需要用VPN的时候再手动关闭，操作比较繁琐且不够智能。</p><p>今天<a href="https://nickyam.com/">涯木君</a>就给大家介绍iPhone下利用快捷指令设置自动打开、关闭VPN的方法，以期待能达到以下效果：</p><p>假设有两个App：A和B，A需要打开VPN使用，B需要关闭VPN使用。在我们打开A时，打开VPN的自动化流程就会运行，为我们打开设置好的VPN。当我们退回桌面时，VPN还是在运行的。接着我们打开B，关闭VPN的自动化流程就会运行，VPN被自动关闭。</p><h1 id="必备条件"><a href="#必备条件" class="headerlink" title="必备条件"></a>必备条件</h1><p>苹果手机、预装的<a href="https://info.nickyam.com/tags/shortcut">快捷指令</a>App、VPN。</p><h1 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h1><h2 id="1、创建打开VPN的快捷指令"><a href="#1、创建打开VPN的快捷指令" class="headerlink" title="1、创建打开VPN的快捷指令"></a>1、创建打开VPN的快捷指令</h2><p>打开快捷指令App进入快捷指令页面，新建快捷指令，点击“添加操作”，搜索【VPN】，选择脚本【设定VPN】。这一步的时候除了VPN，如果你安装了小火箭<a href="https://app.nickyam.com/apple/apple-id.html">Shadowrocket</a>（点击可下载），可以直接搜索到它。后续步骤大同小异。</p><p>设定VPN脚本共有两个变量:</p><p>一是操作，包括连接、断开连接、开关、按需设置、开关按需设置共5个选项；</p><p>二是VPN，此处会显示已配置好的设备VPN（在手机设置-通用-VPN与设备管理菜单页面设置）。我们选择【连接】操作，再选择我们需要打开的VPN，然后点击右上角的“完成”按钮即可。</p><p><img src="https://img.nickyam.com/file/3ddc4efcd926993c36fc7.jpg"></p><h2 id="2、创建关闭VPN的快捷指令"><a href="#2、创建关闭VPN的快捷指令" class="headerlink" title="2、创建关闭VPN的快捷指令"></a>2、创建关闭VPN的快捷指令</h2><p>大部分操作与打开VPN快捷指令相同，但是【操作】里请选择【断开连接】，并修改下快捷指令的名称便于区分（点击页面顶部的下拉箭头即可设置）。</p><h2 id="3、创建打开VPN的自动化流程"><a href="#3、创建打开VPN的自动化流程" class="headerlink" title="3、创建打开VPN的自动化流程"></a>3、创建打开VPN的自动化流程</h2><p>打开快捷指令App，进入自动化页面，点击右上角“+”，然后选择【App】，在下一个页面里有三个操作区域：</p><p>第一个操作区域是选择App——请勾选所有需要打开VPN运行的App；</p><p>第二个操作区域是判断打开或关闭App，请选择【已打开】；</p><p>第三个操作区域是选择运行前是否通知，请选择【立即运行】，并确认【运行时通知】选项是关闭状态。</p><p>点击“下一步”，选择在第一步创建好的打开VPN的快捷指令，打开VPN的自动化流程就创建成功了。</p><p><img src="https://img.nickyam.com/file/2fad76fb2a145ba27266b.jpg"></p><h2 id="4、创建关闭VPN的自动化流程"><a href="#4、创建关闭VPN的自动化流程" class="headerlink" title="4、创建关闭VPN的自动化流程"></a>4、创建关闭VPN的自动化流程</h2><p>大部分操作和打开VPN的自动化流程也是相同的，区别点是：</p><p>App要选择需要关闭VPN运行的App，快捷指令选择关闭VPN的快捷指令。</p><p>这样，关闭VPN的自动化流程就创建好了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>数码科技</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>快捷指令</tag>
+      
+      <tag>iPhone</tag>
+      
+      <tag>VPN</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
