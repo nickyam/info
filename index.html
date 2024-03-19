@@ -65,7 +65,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"info.nickyam.com","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":true,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"info.nickyam.com","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -400,7 +400,7 @@
     
       <div class="col-12 col-md-4 m-auto index-img">
         <a href="/ai/wonderful-prompts.html" target="_self">
-          <img src="/img/icon/paxful.jpeg" srcset="/img/loading.gif" lazyload alt="中文 Prompts 精选">
+          <img src="/img/icon/chatgpt-prompts.png" srcset="/img/loading.gif" lazyload alt="中文 Prompts 精选">
         </a>
       </div>
     
@@ -415,7 +415,7 @@
       
       <a class="index-excerpt " href="/ai/wonderful-prompts.html" target="_self">
         <div>
-          🔥中文 prompts 精选，提升 ChatGPT 可玩性和可用性！上百个高质量 prompt 让你得心应手的驾驭 AI 🚀。 目录 目录 Prompt 生成优化 Prompt 工程师 Prompt 工程专家 Stable Audio 音乐提示词生成器 Stable Diffusion 提示词生成 Meta Prompt Prompt 评分专家   通用超级 Prompt 🔥 输出
+          🔥中文 prompts 精选，提升 ChatGPT 可玩性和可用性！上百个高质量 prompt 让你得心应手的驾驭 AI 🚀。 目录 目录 Prompt 生成优化 Prompt 工程师 Prompt 工程专家 Stable Audio 音乐提示词生成器 Stable Diffusion 提示词生成 Meta Prompt Prompt 评分专家   通用超级 Prompt 🔥 输出不完整时继
         </div>
       </a>
 
@@ -651,7 +651,37 @@
       }
       var text = subtitle.getAttribute('data-typed-text');
       
-        typing(text);
+        jQuery.ajax({
+          type: 'GET',
+          url: 'https://v1.hitokoto.cn/?c=c&c=d&c=i',
+          headers: {},
+          dataType: 'json',
+          success: function(result) {
+            var apiText;
+            if (result) {
+              var keys = 'hitokoto'.split(',');
+              if (result instanceof Array) {
+                result = result[0];
+              }
+              for (const k of keys) {
+                var value = result[k];
+                if (typeof value === 'string') {
+                  apiText = value;
+                  break;
+                } else if (value instanceof Object) {
+                  result = value;
+                }
+              }
+            }
+            apiText ? typing(apiText) : typing(text);
+          },
+          error: function(xhr, status, error) {
+            if (error) {
+              console.error('Failed to request https://v1.hitokoto.cn/?c=c&amp;c=d&amp;c=i:', error);
+            }
+            typing(text);
+          }
+        })
       
     })(window, document);
   </script>
