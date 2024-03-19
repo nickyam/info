@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://info.nickyam.com/crypto/paxful-to-buy-btc-by-paypal.html</loc>
+    <loc>http://info.nickyam.com/ai/wonderful-prompts.html</loc>
     
     <lastmod>2024-03-19</lastmod>
     
@@ -13,7 +13,16 @@
   <url>
     <loc>http://info.nickyam.com/tech/apple-id.html</loc>
     
-    <lastmod>2024-03-15</lastmod>
+    <lastmod>2024-03-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/crypto/paxful-to-buy-btc-by-paypal.html</loc>
+    
+    <lastmod>2024-03-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -47,7 +56,21 @@
 
   
   <url>
-    <loc>http://info.nickyam.com/tags/%E8%B4%A6%E5%8F%B7/</loc>
+    <loc>http://info.nickyam.com/tags/id/</loc>
+    <lastmod>2024-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/tags/apple/</loc>
+    <lastmod>2024-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/tags/iPhone/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -89,14 +112,21 @@
   </url>
   
   <url>
-    <loc>http://info.nickyam.com/tags/iPhone/</loc>
+    <loc>http://info.nickyam.com/tags/VPN/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://info.nickyam.com/tags/VPN/</loc>
+    <loc>http://info.nickyam.com/tags/chatgpt/</loc>
+    <lastmod>2024-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/tags/ai/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -113,6 +143,13 @@
   
   <url>
     <loc>http://info.nickyam.com/categories/crypto/</loc>
+    <lastmod>2024-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/categories/ai/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
