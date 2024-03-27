@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>建站｜如何让Hexo不渲染部分markdown文件</title>
+    <link href="/web/how-to-make-hexo-not-render-markdown.html"/>
+    <url>/web/how-to-make-hexo-not-render-markdown.html</url>
+    
+    <content type="html"><![CDATA[<p>默认情况下，Hexo会渲染所有的HTML和Markdown文件。在<code>source</code>文件夹下的所有开头不是下划线的文件，在<code>hexo generate</code>的时候，都会被拷贝到<code>public</code>文件夹下。</p><p>如果在Hexo建站过程中，如何让Hexo不渲染部分markdown文件呢？</p><p>这时候需要使用skip_render配置。</p><p>根据Hexo文档中的说明，通过在<code>_config.yml</code>配置文件中使用<code>skip_render</code>参数，可以跳过指定文件的渲染。路径匹配可以使用正则表达式。</p><p>使用方式如下：</p><p><code>skip_render: [file/**, img/**]</code></p><p>注意：<code>skip_render</code>参数设置的路径是相对于<code>source</code>目录的路径。例如，需要跳过渲染<code>source/README.md</code>，只需要设置 <code>skip_render:README.md</code>。</p><p>在设置了跳过渲染之后，最好使用<code>hexo clean</code>清除以前的编译结果，保证配置生效。</p><p>如果本来有一个HTML文件的话，可以简单地在文件开头加上layout: false一行。</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">layout:</span> <span class="hljs-literal">false</span><br><span class="hljs-meta">---</span><br><span class="hljs-meta"></span><br><span class="hljs-string">&lt;html&gt;</span><br><span class="hljs-string">...</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>建站相关</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+      <tag>markdown</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Paxful｜能用中国区PayPal购买BTC、USDT、ETH的平台</title>
     <link href="/crypto/paxful-to-buy-btc-by-paypal.html"/>
     <url>/crypto/paxful-to-buy-btc-by-paypal.html</url>
