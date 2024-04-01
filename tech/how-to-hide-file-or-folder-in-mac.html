@@ -18,27 +18,26 @@
   <meta name="author" content="NickYam">
   <meta name="keywords" content="IT,数码,教程">
   
-    <meta name="description" content="一般来说，Mac终端正常情况下是显示用户名的。终端的主机名实际上是和“系统偏好设置-通用-关于本机”中的电脑名称是一致的。 不过，有时候会出现打开终端后，主机名变为“192”的异常现象。  该问题出现的原因主要是当路由器的DNS使用默认的192.168.1.1或192.168.0.1的时候，Terminal里的计算机名会变成localhost。 之前我实践的解决办法很简单，只需要修改DNS配置:">
+    <meta name="description" content="Mac为了防止用户意外更改或删除Mac运行所需的重要数据导致系统出现一些不可预知的问题，会默认隐藏一些文件和文件夹。如果我们个人有隐藏文件或文件夹的需要，该怎么办呢？ 拖入到系统隐藏文件夹 通过按快捷键 Shift + Command + .  显示系统隐藏的文件夹。 将你想要隐藏的文件或文件夹拖入到Mac系统中原有的隐藏文件夹中，比如资源库。  新建隐藏文件 打开终端（Terminal），在终端">
 <meta property="og:type" content="article">
-<meta property="og:title" content="命令行解决Mac终端主机名不正常显示192的解决方法">
-<meta property="og:url" content="http://info.nickyam.com/tech/how-to-resolve-display-of-192-in-mac-terminal-hostname.html">
+<meta property="og:title" content="如何在 Mac 上隐藏文件（夹）的技巧">
+<meta property="og:url" content="http://info.nickyam.com/tech/how-to-hide-file-or-folder-in-mac.html">
 <meta property="og:site_name" content="涯木在线">
-<meta property="og:description" content="一般来说，Mac终端正常情况下是显示用户名的。终端的主机名实际上是和“系统偏好设置-通用-关于本机”中的电脑名称是一致的。 不过，有时候会出现打开终端后，主机名变为“192”的异常现象。  该问题出现的原因主要是当路由器的DNS使用默认的192.168.1.1或192.168.0.1的时候，Terminal里的计算机名会变成localhost。 之前我实践的解决办法很简单，只需要修改DNS配置:">
+<meta property="og:description" content="Mac为了防止用户意外更改或删除Mac运行所需的重要数据导致系统出现一些不可预知的问题，会默认隐藏一些文件和文件夹。如果我们个人有隐藏文件或文件夹的需要，该怎么办呢？ 拖入到系统隐藏文件夹 通过按快捷键 Shift + Command + .  显示系统隐藏的文件夹。 将你想要隐藏的文件或文件夹拖入到Mac系统中原有的隐藏文件夹中，比如资源库。  新建隐藏文件 打开终端（Terminal），在终端">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://info.nickyam.com/img/icon/192.png">
-<meta property="article:published_time" content="2024-03-30T15:59:59.000Z">
-<meta property="article:modified_time" content="2024-03-31T03:15:57.194Z">
+<meta property="og:image" content="http://info.nickyam.com/img/icon/folder.jpg">
+<meta property="article:published_time" content="2024-04-01T03:59:59.000Z">
+<meta property="article:modified_time" content="2024-04-01T08:44:07.195Z">
 <meta property="article:author" content="NickYam">
-<meta property="article:tag" content="苹果">
 <meta property="article:tag" content="mac">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://info.nickyam.com/img/icon/192.png">
+<meta name="twitter:image" content="http://info.nickyam.com/img/icon/folder.jpg">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>命令行解决Mac终端主机名不正常显示192的解决方法 - 涯木在线</title>
+  <title>如何在 Mac 上隐藏文件（夹）的技巧 - 涯木在线</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -228,7 +227,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="命令行解决Mac终端主机名不正常显示192的解决方法"></span>
+            <span id="subtitle" data-typed-text="如何在 Mac 上隐藏文件（夹）的技巧"></span>
           
         </div>
 
@@ -244,8 +243,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-03-30 23:59" pubdate>
-          2024年3月30日 晚上
+        <time datetime="2024-04-01 11:59" pubdate>
+          2024年4月1日 中午
         </time>
       </span>
     
@@ -256,7 +255,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          303 字
+          378 字
         
       </span>
     
@@ -267,7 +266,7 @@
         
         
         
-          3 分钟
+          4 分钟
         
       </span>
     
@@ -312,12 +311,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">命令行解决Mac终端主机名不正常显示192的解决方法</h1>
+            <h1 id="seo-header">如何在 Mac 上隐藏文件（夹）的技巧</h1>
             
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2024年3月31日 上午
+                    本文最后更新于 2024年4月1日 下午
                   
                 
               </p>
@@ -325,27 +324,25 @@
             
               <div class="markdown-body">
                 
-                <p>一般来说，<a href="https://info.nickyam.com/tech/how-to-resolve-display-of-192-in-mac-terminal-hostname.html">Mac</a>终端正常情况下是显示用户名的。终端的主机名实际上是和“系统偏好设置-通用-关于本机”中的电脑名称是一致的。</p>
-<p>不过，有时候会出现打开终端后，主机名变为“192”的异常现象。</p>
-<p><img src="https://img.nickyam.com/file/0a10201db3c5a254e0a29.png" srcset="/img/loading.gif" lazyload></p>
-<p>该问题出现的原因主要是当路由器的DNS使用默认的192.168.1.1或192.168.0.1的时候，Terminal里的计算机名会变成localhost。</p>
-<p>之前我实践的解决办法很简单，只需要修改DNS配置:</p>
-<ul>
-<li><p>打开“系统偏好设置-网络-高级-DNS”，可以看到DNS服务器中有192.168.1.1和192.168.0.1地址，点击减号删除。</p>
+                <p>Mac为了防止用户意外更改或删除<a href="https://info.nickyam.com/tags/mac/">Mac</a>运行所需的重要数据导致系统出现一些不可预知的问题，会默认隐藏一些文件和文件夹。如果我们个人有隐藏文件或文件夹的需要，该怎么办呢？</p>
+<h1 id="拖入到系统隐藏文件夹"><a href="#拖入到系统隐藏文件夹" class="headerlink" title="拖入到系统隐藏文件夹"></a>拖入到系统隐藏文件夹</h1><ul>
+<li>通过按快捷键 <code>Shift + Command + . </code> 显示系统隐藏的文件夹。</li>
+<li>将你想要隐藏的文件或文件夹拖入到Mac系统中原有的隐藏文件夹中，比如资源库。</li>
+</ul>
+<h1 id="新建隐藏文件"><a href="#新建隐藏文件" class="headerlink" title="新建隐藏文件"></a>新建隐藏文件</h1><ul>
+<li><p>打开终端（Terminal），在终端中输入 mkdir 文件位置&#x2F;.文件名称，如<code>mkdir desktop/.macbox</code>，按回车键执行命令，即可创建一个隐藏文件夹（.macbox）。</p>
 </li>
-<li><p>点击加号增加8.8.8.8地址，点击“好”按钮，再点击应用按钮，退出即可。</p>
+<li><p>通过按下键盘快捷键 Shift + Command + .就可以将这个隐藏文件夹显示出来，进行进一步的操作。</p>
 </li>
 </ul>
-<p><img src="https://img.nickyam.com/file/88e32439cc5e7f9aabe47.png" srcset="/img/loading.gif" lazyload></p>
-<p>重启终端，恢复正常。</p>
-<p>但是这两天安装了python的相关环境以后，不知道为什么这个办法失效了。</p>
-<p>于是我又找了一个新的方法，供大家参考。</p>
-<p>首先查看下hostname：</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">scutil --<span class="hljs-built_in">get</span> HostName <br></code></pre></td></tr></table></figure>
+<h1 id="chflags命令修改文件隐藏属性"><a href="#chflags命令修改文件隐藏属性" class="headerlink" title="chflags命令修改文件隐藏属性"></a>chflags命令修改文件隐藏属性</h1><ul>
+<li>在终端中输入 chflags hidden+空格，然后拖入要隐藏的文件，按回车键执行可隐藏该文件。</li>
+<li>按照上面相同的命令，将hidden更改为 nohidden，拖入要解除隐藏的文件，按回车键执行即可。</li>
+</ul>
+<h1 id="使用mv命令隐藏文件夹"><a href="#使用mv命令隐藏文件夹" class="headerlink" title="使用mv命令隐藏文件夹"></a>使用mv命令隐藏文件夹</h1><p>mv命令在终端可以将文件夹从一个目的地传输到另一个目的地。 因此可调用“mv”命令将文件夹转移到句点文件夹。</p>
+<p>启动终端并输入 <code>mv filename .filename</code>。</p>
+<p>其中，filename参数替换为你需要隐藏的文件夹名即可。。</p>
 
-<p>如果没有可用的HostName，我们看到的就会死来自DNS或者DHCP服务器。</p>
-<p>只需要将HostName设置为：</p>
-<figure class="highlight gams"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs gams">sudo scutil --<span class="hljs-keyword">set</span> HostName <span class="hljs-comment">&#x27;yourHostName&#x27;</span><br></code></pre></td></tr></table></figure>
                 
               </div>
             
@@ -378,8 +375,6 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/apple/" class="print-no-link">#苹果</a>
-      
         <a href="/tags/mac/" class="print-no-link">#mac</a>
       
     </div>
@@ -394,18 +389,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/tech/how-to-hide-file-or-folder-in-mac.html" title="如何在 Mac 上隐藏文件（夹）的技巧">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">如何在 Mac 上隐藏文件（夹）的技巧</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/coding/how-to-install-anaconda-on-macos.html" title="教程｜如何在苹果电脑上安装Anaconda和Python">
-                        <span class="hidden-mobile">教程｜如何在苹果电脑上安装Anaconda和Python</span>
+                      <a href="/tech/how-to-resolve-display-of-192-in-mac-terminal-hostname.html" title="命令行解决Mac终端主机名不正常显示192的解决方法">
+                        <span class="hidden-mobile">命令行解决Mac终端主机名不正常显示192的解决方法</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
