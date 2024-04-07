@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://info.nickyam.com/tech/how-to-build-domain-name-mail-in-one-step.html</loc>
+    
+    <lastmod>2024-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://info.nickyam.com/tech/how-to-hide-file-or-folder-in-mac.html</loc>
     
     <lastmod>2024-04-01</lastmod>
@@ -121,7 +130,7 @@
 
   <url>
     <loc>http://info.nickyam.com/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -129,126 +138,147 @@
   
   <url>
     <loc>http://info.nickyam.com/tags/id/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/apple/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/iPhone/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/web3/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/blockchain/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/code/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/hexo/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/butterfly/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/tags/mail/</loc>
+    <lastmod>2024-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/tags/domain/</loc>
+    <lastmod>2024-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://info.nickyam.com/tags/cloudflare/</loc>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/mac/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/markdown/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/paypal/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/BTC/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/USDT/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/ETH/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/shortcut/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/VPN/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/chatgpt/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/tags/ai/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -257,35 +287,35 @@
   
   <url>
     <loc>http://info.nickyam.com/categories/tech/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/categories/crypto/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/categories/web/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/categories/coding/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://info.nickyam.com/categories/ai/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
