@@ -27,7 +27,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://info.nickyam.com/img/icon/https.jpeg">
 <meta property="article:published_time" content="2024-04-22T03:59:59.000Z">
-<meta property="article:modified_time" content="2024-04-23T05:03:42.197Z">
+<meta property="article:modified_time" content="2024-04-23T05:07:31.929Z">
 <meta property="article:author" content="NickYam">
 <meta property="article:tag" content="https">
 <meta name="twitter:card" content="summary_large_image">
@@ -402,7 +402,7 @@
 </li>
 </ul>
 <blockquote>
-<p>这里先说下Let’s Encrypt证书品牌：Let’s Encrypt是免费、开放和自动化的世界知名证书颁发机构，由非盈利组织互联网安全研究小组（ISRG）运营。Let’s Encrypt已为全世界1.8亿个网站提供HTTPS证书，可放心使用。再说下这个certbot：certbot是一个脚本类型的Let’s Encrypt证书申请客户端，需要一定的命令行使用经验方可操作，如需自动更新，还需要添加插件，使用起来比较困难。如有自动更新和自动部署需求，建议使用下面介绍的acme.sh和ohttps.com。</p>
+<p>这里先说下Let’s Encrypt证书品牌：Let’s Encrypt是免费、开放和自动化的世界知名证书颁发机构，由非盈利组织互联网安全研究小组（ISRG）运营。Let’s Encrypt已为全世界1.8亿个网站提供HTTPS证书，可放心使用。再说下这个certbot：certbot是一个脚本类型的Let’s Encrypt证书申请客户端，需要一定的命令行使用经验方可操作，如需自动更新，还需要添加插件，使用起来比较困难。如有自动更新和自动部署需求，建议使用下面介绍的 acme.sh 和 ohttps.com。</p>
 </blockquote>
 <p><strong>4、acme.sh</strong></p>
 <ul>
@@ -424,7 +424,7 @@
 </li>
 </ul>
 <blockquote>
-<p>acme.sh是一个知名的用于申请Let’s Encrypt证书的开源项目，项目地址：<a target="_blank" rel="noopener" href="https://github.com/acmesh-official/acme.sh%EF%BC%8C%E4%B9%9F%E6%98%AF%E5%B1%9E%E4%BA%8E%E8%84%9A%E6%9C%AC%E7%B1%BB%E5%9E%8B%EF%BC%8C%E6%9C%89%E6%AF%94%E8%BE%83%E8%AF%A6%E7%BB%86%E7%9A%84%E6%96%87%E6%A1%A3%EF%BC%8C%E6%94%AF%E6%8C%81%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9B%B4%E6%96%B0%E5%92%8C%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E3%80%82%E5%94%AF%E4%B8%80%E7%BC%BA%E7%82%B9%EF%BC%8C%E5%A6%82%E6%9E%9C%E6%9C%89%E6%9B%B4%E6%96%B0%E5%90%8E%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E8%87%B3%E5%A4%9A%E4%B8%AA%E8%8A%82%E7%82%B9%E7%9A%84%E9%9C%80%E6%B1%82%E7%9A%84%E8%AF%9D%EF%BC%8Cacme.sh%E6%97%A0%E6%B3%95%E6%BB%A1%E8%B6%B3%E3%80%82%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%9C%89%E4%B8%80%E5%AE%9A%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%EF%BC%8Cacme.sh%E4%BD%BF%E7%94%A8%E8%B5%B7%E6%9D%A5%E8%BF%98%E6%98%AF%E9%9D%9E%E5%B8%B8%E6%96%B9%E4%BE%BF%EF%BC%8C%E5%BC%BA%E7%83%88%E6%8E%A8%E8%8D%90%EF%BC%81%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E5%90%8E%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E8%87%B3%E5%A4%9A%E4%B8%AA%E8%8A%82%E7%82%B9%E7%9A%84%E9%9C%80%E6%B1%82%EF%BC%8C%E5%BB%BA%E8%AE%AE%E4%BD%BF%E7%94%A8%E4%B8%8B%E9%9D%A2%E4%BB%8B%E7%BB%8D%E7%9A%84ohttps.com%E3%80%82">https://github.com/acmesh-official/acme.sh，也是属于脚本类型，有比较详细的文档，支持自动化更新和自动化部署。唯一缺点，如果有更新后自动部署至多个节点的需求的话，acme.sh无法满足。如果你有一定的命令行使用经验，acme.sh使用起来还是非常方便，强烈推荐！关于更新后自动部署至多个节点的需求，建议使用下面介绍的ohttps.com。</a></p>
+<p>acme.sh是一个知名的用于申请Let’s Encrypt证书的开源项目，项目地址：<a target="_blank" rel="noopener" href="https://github.com/acmesh-official/acme.sh">https://github.com/acmesh-official/acme.sh</a><br>也是属于脚本类型，有比较详细的文档，支持自动化更新和自动化部署。唯一缺点，如果有更新后自动部署至多个节点的需求的话，acme.sh无法满足。如果你有一定的命令行使用经验，acme.sh使用起来还是非常方便，强烈推荐！关于更新后自动部署至多个节点的需求，建议使用下面介绍的 ohttps.com。</p>
 </blockquote>
 <p><strong>5、freessl.cn</strong></p>
 <ul>
@@ -519,6 +519,12 @@
                 <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/ai/playground-ai-cloudflare.html" title="Cloudflare出奇迹： 免费使用各类开源 AI 大模型">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Cloudflare出奇迹： 免费使用各类开源 AI 大模型</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">
