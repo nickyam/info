@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Telegram账号使用是一定要做的三个设置</title>
+    <link href="/tech/telegram-settings-you-have-to-do.html"/>
+    <url>/tech/telegram-settings-you-have-to-do.html</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>写在最前：</p><ol><li>千万不要泄露自己的消息列表截图，更不能泄露任何系统登陆验证码。</li><li>不要把自己<a href="https://info.nickyam.com/tech/telegram-settings-you-have-to-do.html">Telegram</a>绑定的手机号码泄露给任何人。</li></ol></blockquote><h1 id="1-隐藏手机号"><a href="#1-隐藏手机号" class="headerlink" title="1.隐藏手机号"></a>1.隐藏手机号</h1><p>Telegram必须通过电话号码注册，并且有向陌生人展示电话号码的功能。但如果没有必要，请务必隐藏自己的电话号码。</p><p>Settings –&gt; Privacy and Security –&gt; Phone number ，将权限设置为My contacts 我的联系人可见或者Nobody。</p><p><img src="https://img.nickyam.com/file/3371022dc4acf3cb9f668.gif"></p><h1 id="2-关闭文件自动下载"><a href="#2-关闭文件自动下载" class="headerlink" title="2.关闭文件自动下载"></a>2.关闭文件自动下载</h1><p>这个选项非常关键，很多人的电脑就是这一步没有设置好而中了病毒木马导致设备出现问题。</p><p>关闭以后如果有人给你发送可疑文件或者包含病毒木马的文件就不会自动下载到电脑上了。</p><p>在 设置 —&gt; 数据和存储 —&gt; 自动下载媒体 里关闭文件的自动下载</p><p>Settings –&gt; Data and Storage –&gt; AUTOMATIC MEDIA DOWNLOAD</p><p><img src="https://img.nickyam.com/file/71fb97d776006b39f3a47.gif"></p><h1 id="3-开启两步验证"><a href="#3-开启两步验证" class="headerlink" title="3.开启两步验证"></a>3.开启两步验证</h1><p>设置过两步验证之后，即使对方获取了我们的登陆验证码，但是还需要一个存在本地的登陆密码，才可以登陆成功，而这个对方是无法获取的。</p><p>设置也很简单</p><p>Settings –&gt; Privacy and Security</p><p>设置—&gt;隐私和安全，点击最上面的两步验证，接下来设置一个本地密码。</p><h1 id="4-其他隐私保护的注意事项："><a href="#4-其他隐私保护的注意事项：" class="headerlink" title="4. 其他隐私保护的注意事项："></a>4. 其他隐私保护的注意事项：</h1><h2 id="群组聊天"><a href="#群组聊天" class="headerlink" title="群组聊天"></a>群组聊天</h2><p>Telegram的群聊是『不安全』的，公开群组的所有聊天内容都可被其他人查看（即使他人并未注册Telegram，仍可以通过浏览器输入消息链接查看），如非必要，尽量不要在群聊里过多参与讨论。</p><h2 id="媒体文件"><a href="#媒体文件" class="headerlink" title="媒体文件"></a>媒体文件</h2><p>在一些群组分享照片时，请注意使用专业修图软件打码处理关键信息，并清除照片包含的地理位置信息（可以使用Exif编辑软件去除已存的定位信息）。</p><h2 id="分享链接"><a href="#分享链接" class="headerlink" title="分享链接"></a>分享链接</h2><p>从其他平台分享内容至Telegram时，请注意清除分享链接中的用户UserID识别信息，他人完全有可能从您的分享链接中获取您的用户信息。</p><h2 id="第三方客户端"><a href="#第三方客户端" class="headerlink" title="第三方客户端"></a>第三方客户端</h2><p>如无特殊需要，请使用官方Telegram客户端。从技术上讲，第三方客户端完全有能力获取和控制您的账户，读取您全部的聊天记录，收集您设备的可识别信息，包括但不限于：手机号、设备型号、IMEI码、MAC码等。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>数码科技</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>telegram</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Cloudflare出奇迹： 免费使用各类开源 AI 大模型</title>
     <link href="/ai/playground-ai-cloudflare.html"/>
     <url>/ai/playground-ai-cloudflare.html</url>
