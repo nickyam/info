@@ -4,7 +4,32 @@
   
   
   <entry>
-    <title>Telegram账号使用是一定要做的三个设置</title>
+    <title>macbook电脑网速突然变慢，其它设备网速却很快，如何处理</title>
+    <link href="/tech/mac-fix-network-slow.html"/>
+    <url>/tech/mac-fix-network-slow.html</url>
+    
+    <content type="html"><![CDATA[<p>有时候，如然发现苹果电脑在使用的过程中网速变得很慢，反而是叠上魔法会变快。这时候，建议你先看一下自己的其他设备是否有同样的问题。如果所有设备都出现这一情况，那么是路由器或者网络本身的问题。</p><p>如果除了macbook意外事件的设备网速都正常，尤其是手机的设备网速正常，那么大概率就是macbook本身出现了问题。</p><p>通常出现这种问题的原因，都是因为可能访问了外国网站造成的。由于现在的ChatGPT以及一些其他的AI软件非常火，想要访问这些网站可能需要一些设置。这些设置有可能在你不用的时候，依然没有退出。如果是这样，则可以用以下的办法去尝试一下。 </p><ol><li>重启电脑。</li><li>如果重启电脑不管用的话，那么就打开-系统偏好设置-网络-WiFi-高级-DNS，看一下有没有不熟悉的DNS？你可以把不熟悉的DNS删除，可能网络就好了。</li><li>如果DNS设置还不奏效的话，那么打开访达-在左侧位置里选择自己的电脑名称(macbook pro)， 再找到硬盘（Macintosh HD-资源库-preferences-systemconfiguration文件夹，把除了com.apple.boot.plist文件外的其它文件删除，重启电脑。然后再测速一下，大概率会解决你的问题。</li></ol><p><img src="https://img.nickyam.com/file/cf16aff9183e2e8765f30.png"></p><p>希望我说的办法能够对大家有用。 </p>]]></content>
+    
+    
+    <categories>
+      
+      <category>数码科技</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>macbook</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Telegram账号使用时一定要做的三个设置</title>
     <link href="/tech/telegram-settings-you-have-to-do.html"/>
     <url>/tech/telegram-settings-you-have-to-do.html</url>
     
